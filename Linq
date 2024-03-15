@@ -1,0 +1,80 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.Design;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Linq
+{
+    class Employee
+    {
+        private string _name;
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+
+
+        }
+        public string Address
+        {
+            get; set;
+        }
+        public double salary{
+            get; set;
+        }
+
+    }
+     internal class Program
+    {
+        static void Main(string[]args)
+        {
+            
+            List<Employee> list = new List<Employee>();
+            Employee e1 = new Employee();
+            e1.Name = "Ashmita";
+            e1.Address = "Khumaltar";
+            e1.salary = 15000;
+           list.Add(e1);   
+           Employee e2 = new Employee();
+            e2.Name = "Rama";
+            e2.Address = "kathmandu";
+            e2.salary = 25000;
+            list.Add(e2);
+            Employee e3 = new Employee();
+            e3.Name = "Ronny";
+            e3.Address = "kathmandu";
+            e3.salary = 30000;
+            list.Add(e3);
+            Employee e4 = new Employee();
+            e4.Name = "Rishu";
+            e4.Address = "Khumaltar";
+            e4.salary = 35000;
+           list.Add(e4);
+            Console.WriteLine("The data of the Employees are:");
+            foreach (Employee employee in list)
+            {
+               Console.WriteLine(employee.Name+"  "+ employee.Address +"  "+ employee.salary);
+            }
+            Console.WriteLine("\n");
+           
+            //start of query
+            Console.WriteLine("The desired output is:");
+           var result=from emp in list
+                      where emp.Address=="kathmandu" && emp.salary>20000
+                      orderby emp.Name ascending
+                      select emp;   
+
+
+            foreach (var e in result)
+            {
+                Console.WriteLine($"{e.Name } {e.Address } { e.salary}");
+            }
+           
+
+            Console.ReadKey();
+        }
+
+    }
+}
