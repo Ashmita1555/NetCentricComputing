@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Delegate1
+{
+    public delegate void Calculation(int a, int b);
+    public delegate void Area(int r);
+    internal class Program
+    {
+        public static  void Addition(int a, int b)
+        {
+            Console.WriteLine(a + b);
+        }
+        public static  void Subtraction(int a,int b)
+        {
+            Console.WriteLine(a - b);
+        }
+        public static void  AreaCircle(int r)
+        {
+            Console.WriteLine(3.14*r*r);
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the first value");
+            int num1=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second value");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter radius");
+            int r=Convert.ToInt32(Console.ReadLine());  
+
+            //addition function is bind in delegate
+           Console.WriteLine("The output of single delegate:\n ");
+            Calculation obj =new Calculation(Addition);
+            obj(num1, num2);
+            Calculation obj1 = new Calculation(Subtraction);
+            obj1(num1, num2);
+            //Multicast Delegate
+            Console.WriteLine("The output of multicaste delegate:\n ");
+            Calculation cal = new Calculation(Addition);
+            cal += Subtraction;
+            cal.Invoke(num1, num2);
+
+            //multipledelegate
+            Console.WriteLine("The output of multiple delegate:\n ");
+            Calculation obj3 = new Calculation(Addition);
+            obj3(num1, num2);
+            Calculation obj4 = new Calculation(Subtraction);
+            obj4(num1, num2);
+            Area area = new Area(AreaCircle);
+            area(r);
+            Console.ReadKey();
+        }
+    }
+}
