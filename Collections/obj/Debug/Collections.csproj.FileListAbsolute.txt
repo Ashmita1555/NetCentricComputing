@@ -1,0 +1,8 @@
+E:\asp.net\Collections\obj\Debug\Collections.csproj.AssemblyReference.cache
+E:\asp.net\Collections\obj\Debug\Collections.csproj.SuggestedBindingRedirects.cache
+E:\asp.net\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+E:\asp.net\Collections\bin\Debug\Collections.exe.config
+E:\asp.net\Collections\bin\Debug\Collections.exe
+E:\asp.net\Collections\bin\Debug\Collections.pdb
+E:\asp.net\Collections\obj\Debug\Collections.exe
+E:\asp.net\Collections\obj\Debug\Collections.pdb

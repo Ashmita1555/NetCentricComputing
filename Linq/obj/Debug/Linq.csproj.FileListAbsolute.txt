@@ -1,0 +1,8 @@
+E:\asp.net\Linq\obj\Debug\Linq.csproj.AssemblyReference.cache
+E:\asp.net\Linq\obj\Debug\Linq.csproj.SuggestedBindingRedirects.cache
+E:\asp.net\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
+E:\asp.net\Linq\bin\Debug\Linq.exe.config
+E:\asp.net\Linq\bin\Debug\Linq.exe
+E:\asp.net\Linq\bin\Debug\Linq.pdb
+E:\asp.net\Linq\obj\Debug\Linq.exe
+E:\asp.net\Linq\obj\Debug\Linq.pdb

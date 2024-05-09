@@ -1,0 +1,8 @@
+E:\asp.net\struct\bin\Debug\@struct.exe.config
+E:\asp.net\struct\bin\Debug\@struct.exe
+E:\asp.net\struct\bin\Debug\@struct.pdb
+E:\asp.net\struct\obj\Debug\struct.csproj.AssemblyReference.cache
+E:\asp.net\struct\obj\Debug\struct.csproj.SuggestedBindingRedirects.cache
+E:\asp.net\struct\obj\Debug\struct.csproj.CoreCompileInputs.cache
+E:\asp.net\struct\obj\Debug\@struct.exe
+E:\asp.net\struct\obj\Debug\@struct.pdb
