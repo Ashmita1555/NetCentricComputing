@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Collections
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            List<string> list = new List<string>();
+            Console.WriteLine("List of Employee");
+            list.Add("Rony");
+            list.Add("Harry");
+            list.Add("shital");
+            //List&lt;string&gt; list = new List&lt;string&gt;(){&quot;Nepal&quot;,&quot;India&quot;,&quot;China&quot;};
+            foreach (string item in list)
+            {
+                Console.WriteLine(item);
+            }
+            Dictionary<string, int> dict = new Dictionary<string, int>();
+            Console.WriteLine("Dictionary of Employee");
+            dict.Add("Rony", 20000);
+            dict.Add("Harry", 30000);
+            dict.Add("Shital", 50000);
+            foreach (var item in dict)
+
+            {
+                Console.WriteLine(item.Key + "=" + item.Value);
+            }
+            Console.ReadKey();
+        }
+    }
+}

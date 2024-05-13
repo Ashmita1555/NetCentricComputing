@@ -1,0 +1,8 @@
+E:\asp.net\enum\bin\Debug\@enum.exe.config
+E:\asp.net\enum\bin\Debug\@enum.exe
+E:\asp.net\enum\bin\Debug\@enum.pdb
+E:\asp.net\enum\obj\Debug\enum.csproj.AssemblyReference.cache
+E:\asp.net\enum\obj\Debug\enum.csproj.SuggestedBindingRedirects.cache
+E:\asp.net\enum\obj\Debug\enum.csproj.CoreCompileInputs.cache
+E:\asp.net\enum\obj\Debug\@enum.exe
+E:\asp.net\enum\obj\Debug\@enum.pdb

@@ -1,0 +1,44 @@
+﻿@model calculation.Models.Calculation
+@{
+    ViewData["Title"] = "Index";
+}
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <div class="row">
+        @using (Html.BeginForm("/Index", "calcController1", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label for=" n1"> Enter first no</label>
+                <input type="text" class="form-control" id="n1" name="n1"value="@Model.n1"/>
+
+              
+            </div>
+            <div class="form-group">
+                <label for=" n2"> Enter second no</label>
+                <input type="text" class="form-control" id="n2" name="n2" value="@Model.n2" />
+
+
+            </div>
+            <div class="form-group">
+                <label for=" result"> Result</label>
+                <input type="text" class="form-control" id="result" name="result" value="@Model.result" />
+
+
+            </div>
+            <button type="submit" class="btn btn-primary" id="add" value="add" name="calculate">Add</button>
+            <button type="submit" class="btn btn-primary" id="min" value="min" name="calculate">Sub</button>
+            <button type="submit" class="btn btn-primary" id="mul" value="mul" name="calculate">Mul</button>
+            <button type="submit" class="btn btn-primary" id="div" value="div" name="calculate">Div</button>
+
+        }
+
+        </div>
+    </body>
+</html>
+
+
+

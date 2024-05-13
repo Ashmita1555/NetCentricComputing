@@ -1,0 +1,8 @@
+E:\asp.net\3d array\obj\Debug\3d array.csproj.AssemblyReference.cache
+E:\asp.net\3d array\obj\Debug\3d array.csproj.SuggestedBindingRedirects.cache
+E:\asp.net\3d array\obj\Debug\3d array.csproj.CoreCompileInputs.cache
+E:\asp.net\3d array\bin\Debug\3d array.exe.config
+E:\asp.net\3d array\bin\Debug\3d array.exe
+E:\asp.net\3d array\bin\Debug\3d array.pdb
+E:\asp.net\3d array\obj\Debug\3d array.exe
+E:\asp.net\3d array\obj\Debug\3d array.pdb

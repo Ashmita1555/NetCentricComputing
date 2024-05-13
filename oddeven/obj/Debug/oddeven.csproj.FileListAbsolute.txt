@@ -1,0 +1,8 @@
+E:\asp.net\oddeven\bin\Debug\oddeven.exe.config
+E:\asp.net\oddeven\bin\Debug\oddeven.exe
+E:\asp.net\oddeven\bin\Debug\oddeven.pdb
+E:\asp.net\oddeven\obj\Debug\oddeven.csproj.AssemblyReference.cache
+E:\asp.net\oddeven\obj\Debug\oddeven.csproj.SuggestedBindingRedirects.cache
+E:\asp.net\oddeven\obj\Debug\oddeven.csproj.CoreCompileInputs.cache
+E:\asp.net\oddeven\obj\Debug\oddeven.exe
+E:\asp.net\oddeven\obj\Debug\oddeven.pdb

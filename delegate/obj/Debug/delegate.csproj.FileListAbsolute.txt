@@ -1,0 +1,8 @@
+E:\asp.net\delegate\bin\Debug\@delegate.exe.config
+E:\asp.net\delegate\bin\Debug\@delegate.exe
+E:\asp.net\delegate\bin\Debug\@delegate.pdb
+E:\asp.net\delegate\obj\Debug\delegate.csproj.AssemblyReference.cache
+E:\asp.net\delegate\obj\Debug\delegate.csproj.SuggestedBindingRedirects.cache
+E:\asp.net\delegate\obj\Debug\delegate.csproj.CoreCompileInputs.cache
+E:\asp.net\delegate\obj\Debug\@delegate.exe
+E:\asp.net\delegate\obj\Debug\@delegate.pdb
