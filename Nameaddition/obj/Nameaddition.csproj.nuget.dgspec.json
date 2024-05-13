@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\asp.net\\Nameaddition\\Nameaddition.csproj": {}
+    "D:\\NetCentricComputing\\Nameaddition\\Nameaddition.csproj": {}
   },
   "projects": {
-    "E:\\asp.net\\Nameaddition\\Nameaddition.csproj": {
+    "D:\\NetCentricComputing\\Nameaddition\\Nameaddition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\asp.net\\Nameaddition\\Nameaddition.csproj",
+        "projectUniqueName": "D:\\NetCentricComputing\\Nameaddition\\Nameaddition.csproj",
         "projectName": "Nameaddition",
-        "projectPath": "E:\\asp.net\\Nameaddition\\Nameaddition.csproj",
-        "packagesPath": "C:\\Users\\ASHMITA\\.nuget\\packages\\",
-        "outputPath": "E:\\asp.net\\Nameaddition\\obj\\",
+        "projectPath": "D:\\NetCentricComputing\\Nameaddition\\Nameaddition.csproj",
+        "packagesPath": "C:\\Users\\SAGAR\\.nuget\\packages\\",
+        "outputPath": "D:\\NetCentricComputing\\Nameaddition\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASHMITA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAGAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,12 +34,37 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Fluent.Infrastructure": {
+              "target": "Package",
+              "version": "[2.0.0-beta-01, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.SqlServer.Server": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -65,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,9 +1,13 @@
-﻿namespace Nameaddition.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Nameaddition.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
-        //yo file maa jati model call hunxa sab ko table banxa 
-        // so yo file maa model matra call garnee ho 
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+        }
+
 
     }
 }
