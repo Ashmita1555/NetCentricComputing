@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+
+<html>
+<head>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="row">
+        @using (Html.BeginForm("Index", "Calculate", FormMethod.Post))
+        {
+            <div class="form-group py-3">
+                <label for="n1">Enter first number</label>
+                <input type="text" class="form-control" id="n1" name="n1" value="@Model.n1" />
+            </div>
+            <button type="submit" class="btn btn-primary" name="calculate" value="add">Add</button>
+            <button type="submit" class="btn btn-info" name="calculate" value="min">Subtract</button>
+            <button type="submit" class="btn btn-secondary" name="calculate" value="mul">Multiply</button>
+            <button type="submit" class="btn btn-danger" name="calculate" value="div">Divide</button>
+            <div class="form-group">
+                <label for="n2">Enter second number</label>
+                <input type="text" class="form-control" id="n2" name="n2" value="@Model.n2" />
+            </div>
+          
+            <div class="form-group">
+                <label for="result">Result</label>
+                <input type="text" class="form-control" id="result" name="result" value="@Model.result" readonly />
+            </div>
+        }
+    </div>
+</body>
+</html>
